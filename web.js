@@ -1,3 +1,13 @@
+const originalTitle = document.title;
+
+document.addEventListener("visibilitychange", function () {
+  if (document.hidden) {
+    document.title = "Come back soon❤️!";
+  } else {
+    document.title = originalTitle;
+  }
+});
+
 // tsParticles config
 tsParticles.load("tsparticles", {
   background: {
