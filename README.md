@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This site showcases my skills, projects, education, internships, and contact details in a clean and responsive design.
 
 ## 🔗 Live Website
-[View Portfolio](dhanushmyportfolio.netlify.app)
+[View Portfolio](https://dhanushmyportfolio.netlify.app/)
 
 ## 📁 Features
 
