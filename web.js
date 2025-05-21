@@ -127,3 +127,12 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   animatedEls.forEach((el) => animationObserver.observe(el));
 });
+
+window.addEventListener('pageshow', (event) => {
+  if (event.persisted || window.performance && window.performance.getEntriesByType('navigation')[0].type === 'back_forward') {
+    const forms = document.querySelectorAll('form');
+    forms.forEach(form => form.reset());
+  }
+});
+
+
