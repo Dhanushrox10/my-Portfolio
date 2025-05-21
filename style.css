@@ -530,6 +530,7 @@ body, html {
   .skill{
     padding: 15px;
     margin: 2px;
+    width: 150px;
   }
 }
 
