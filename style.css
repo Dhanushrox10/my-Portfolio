@@ -21,7 +21,6 @@ body, html {
   z-index: -1;
 }
 
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -221,6 +220,7 @@ body, html {
   }
 }
 
+/* Section one */
 .hero {
   display: flex;
   align-items: center;
@@ -363,6 +363,8 @@ body, html {
     width: 90%;
   }
 }
+
+/* About section */
 .about-me{
   background-color: white;
   padding: 40px 14% 140px 11%;
@@ -458,7 +460,7 @@ body, html {
   }
 }
 
-/*Skills*/
+/*Skills section*/
 .skills{
   display: flex;
   justify-content: center;
@@ -534,7 +536,7 @@ body, html {
   }
 }
 
-/*Education*/
+/*Education Section*/
 .education{
   display: flex;
   justify-content: center;
@@ -610,7 +612,7 @@ body, html {
   }
 }
 
-/*Experience*/
+/*Experience Section*/
 .experience {
   background-color: #f5f5f5;
   padding: 40px 20px;
@@ -749,7 +751,7 @@ body, html {
   }
 }
 
-/*Contact*/
+/*Contact Section*/
 .contact {
   display: flex;
   justify-content: center;
@@ -883,7 +885,7 @@ body, html {
   
 }
 
-/*Footer*/
+/*Footer Section*/
 .footer{
   background-color: #240073;
 }
@@ -926,12 +928,14 @@ body, html {
   }
 }
 
+/* Heart-Emoji Motion */
 @keyframes pulse {
   0%   { transform: scale(1); }
   50%  { transform: scale(1.2); }
   100% { transform: scale(1); }
 }
 
+/* last line of the website */
 .last-line{
   padding: 10px 0;
   margin: 0 12%;
@@ -939,6 +943,7 @@ body, html {
   justify-content: center;
 }
 
+/* Website sections Animations */
 .slide-in-left, .slide-in-right, .slide-in-up, .slide-in-down{
   opacity: 0;
   transform: translateX(0); /* neutral by default */
@@ -1013,27 +1018,30 @@ body, html {
   }
 }
 
+/* Html Flow */
 html {
   -webkit-tap-highlight-color: transparent; 
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* matches navbar height + some space */
 }
 
+/* Scrollbar thickness */
 ::-webkit-scrollbar {
   width: 8px; /* or height for horizontal scrollbars */
 }
 
-/* Scrollbar Thumb */
+/* Scrollbar Color CSS */
 ::-webkit-scrollbar-thumb {
   background-color: rgb(95, 0, 184); /* your desired color */
   border-radius: 10px;
 }
 
-/* Scrollbar Track Background */
+/* Scrollbar Background CSS */
 ::-webkit-scrollbar-track {
   background-color: #f0f0f0; /* background of track */
 }
 
+/* Autofill defaults DISABLED */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
