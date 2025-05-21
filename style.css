@@ -341,17 +341,20 @@ body, html {
   color: white;
 }
 
-@media (min-width: 431px) and (max-width: 535px) {
+@media (min-width: 401px) and (max-width: 500px) {
   .hero{
-    padding-top: 100px;
+    padding-top: 80px;
     margin-bottom: 1px;
     gap: 80px;
   }
+  .hero h1{
+    font-size: 3.3rem;
+  }
   .hero h2{
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   .hero p{
-    font-size: 1.37rem;
+    font-size: 1.2rem;
   }
   .content{
     gap: 10px;
