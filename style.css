@@ -357,7 +357,7 @@ body, html {
     font-size: 1.2rem;
   }
   .content{
-    gap: 10px;
+    gap: 3px;
   }
   .pic-1{
     width: 90%;
@@ -430,7 +430,7 @@ body, html {
 @media (max-width: 500px) {
   /* Your responsive styles for very small screens */
   .about-me {
-    padding: 20px 10px 100px 10px;
+    padding: 20px 20px 100px 20px;
   }
   .about-heading {
     font-size: 1.8rem;
@@ -446,6 +446,7 @@ body, html {
   .about-text {
     font-size: 0.9rem;
     line-height: 20px;
+    text-align: justify;
   }
   .about-text h2 {
     font-size: 1.4rem;
