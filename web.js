@@ -137,4 +137,8 @@ window.addEventListener('pageshow', (event) => {
   }
 });
 
+//disable right-click on website
+document.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
 
